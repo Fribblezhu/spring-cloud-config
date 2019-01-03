@@ -1,0 +1,6 @@
+server:
+  port: 10005
+zuul:
+  routes:
+    auth-server: /auth/**
+    provider-demo: /provider/**
